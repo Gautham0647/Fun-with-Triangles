@@ -5,7 +5,7 @@ Need help with Triangles? Well, Here's the Triangle App with following functions
 # 2. Calculate Area of triangle or Hypotenuse.
 # 3.Check if the 3 angles of connections could form the triangles.
 
-Live Demo : 
+Live Demo : https://isittriangle.netlify.app/quizes/quiz
 
 
 # Getting it running
