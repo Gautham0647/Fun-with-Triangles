@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Is it a Triangle?</title>
     <script src="https://kit.fontawesome.com/0ae1aebe6f.js" crossorigin="anonymous"></script>
-    <title>Fun with Triangles</title>
 </head>
 <body>
     <nav>
@@ -15,9 +15,26 @@
         <a href="/"></a>
         <a href="./"></a>
     </nav>
-    <div class="main">
-        <p>Welcome to the <strong>Triangle Quizes Hub.</strong> <br> Attempt quizes from top-right bar and check is your triangle right?</p>
+    <div class="is-triangle">
+        <div class="title">
+            <p>Do you have a Triangle?</p>
+        </div>
+        <div class="angle-input">
+            <label for="angle">Enter the first angle</label>
+            <input type="number" min="1" class="angle" />
+        </div>
+        <div class="angle-input">
+            <label for="angle">Enter the second angle</label>
+            <input type="number" min="1" class="angle" />
+        </div>
+        <div class="angle-input">
+            <label for="angle">Enter the third angle</label>
+            <input type="number" min="1" class="angle" />
+        </div>
+        <div class="output">&nbsp;</div>
+        <button id="check-btn">Check!</button>
     </div>
+    
     <div class="bottom-container">
         <div class="icons">
             <a class="footer-link" target="_blank" href="/"><i
@@ -31,6 +48,9 @@
           </div>
           <p class="copyright">© 2022 Gautham Bairi</p>
     </div>
+
+
+
     
 </body>
 </html>
