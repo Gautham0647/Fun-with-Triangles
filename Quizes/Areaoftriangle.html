@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Is it a Triangle?</title>
+    <title>Area of Triangle</title>
     <script src="https://kit.fontawesome.com/0ae1aebe6f.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <nav>
@@ -15,24 +16,20 @@
         <a href="/Quizes/FindHypotenuse.html">Find Hypotenuse</a>
         <a href="/Quizes/Areaoftriangle.html">Area of Triangle </a>
     </nav>
-    <div class="is-triangle">
+    <div class="area">
         <div class="title">
-            <p>Do you have a Triangle?</p>
+            <p>Area of Triangle</p>
         </div>
-        <div class="angle-input">
-            <label for="angle">Enter the first angle</label>
-            <input type="number" min="1" class="angle" />
+        <div class="base">
+            <label for="base-input">Enter the base of triangle (cm):</label>
+            <input class="base-input" type="number" min="1"/>
         </div>
-        <div class="angle-input">
-            <label for="angle">Enter the second angle</label>
-            <input type="number" min="1" class="angle" />
+        <div class="height">
+            <label for="height-input">Enter the height of triangle (cm):</label>
+            <input class="height-input" type="number" min="1"/>
         </div>
-        <div class="angle-input">
-            <label for="angle">Enter the third angle</label>
-            <input type="number" min="1" class="angle" />
-        </div>
-        <div class="output">&nbsp;</div>
-        <button id="check-btn">Check!</button>
+        <div class="area-output">&nbsp;</div>
+        <button id="area-btn">Get Area!</button>
     </div>
 
     <div class="bottom-container">
@@ -47,7 +44,10 @@
                 class="fab fa-twitter-square fa-2x"></i></a>
           </div>
           <p class="copyright">© 2022 Gautham Bairi</p>
+          
     </div> 
-    <script src="/Quizes/istriangle.js"></script> 
+    <script src="/Quizes/Areaoftriangle.js"></script>
+
+
 </body>
 </html>
